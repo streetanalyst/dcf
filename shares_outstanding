@@ -1,0 +1,17 @@
+sharesOutstanding = basic+dilutive
+  get.this {=sum(basic , dilutive)}
+    update.basic = //on 10q front page or estimate on google finance here : /// <tr>
+<td class="key" data-snapfield="shares" aria-label="Shares outstanding The number of shares held by investors and company insiders, excluding dilutive securities such as non-vested RSUs and unexercised options.">Shares
+</td>
+<td class="val">5.17B
+</td>
+</tr> /// //or DL as an interactive excel document and py.pull from appropriate cell
+    update.diluted = 
+    sum updates
+    get.sharecount_diluted //What's the px they'll dilute as common stock?
+      {type.security_dilutive = [stock_options , warrants , convertible_bonds , convertible_preferred , ]}
+        @file,website,source //ensure the file , source is updated
+    get.sharecount_basic
+        @file,website,source //ensure the file , source is updated
+    return.this as throw_numeric.svg from only [92,867,407,3,666,787] and then convert to language.m or language.b
+      if return.this status "returned" > server > environment > website > post > send newsletter or send telegramSMS
