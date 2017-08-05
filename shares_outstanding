@@ -15,3 +15,23 @@ sharesOutstanding = basic+dilutive
         @file,website,source //ensure the file , source is updated
     return.this as throw_numeric.svg from only [92,867,407,3,666,787] and then convert to language.m or language.b
       if return.this status "returned" > server > environment > website > post > send newsletter or send telegramSMS
+
+..loc
+stock_options (search" :["exercisable","options outstanding","granted"]) 
+  search "options exercisable"
+    Sort tranches as ITM
+    Rename exercise price range values as "tranche"+"1" .."2" ..all = q ranges
+      Method/Assumption
+        ;TSM //append to scenario analysis , appears as probability of event approaches certainty legal regulatory financial and social
+       =xx   Fx = SUM"optionsExercisable"ITM
+                  - subtract [[[[[[[[!!!!!!! product of ( sumExercisablePRICE * sumExercisable) / marketPrice //long as status ITM
+       >> <<
+  
+  @10k
+  request! @Q
+    >pull tranch >assume exercised ITM where market price > strike price > apply treasurery model OR xxxx OR xxxx OR xxxx OR x... where i=1
+warrants
+  @10k
+    >..pending instructions
+convertible_bonds
+convertible_preferred
